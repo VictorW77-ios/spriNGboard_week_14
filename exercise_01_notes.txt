@@ -1,0 +1,9 @@
+Why is the test failing?  
+- The test is failing because N_produced =/= N_consumed. 
+
+What do you suspect is the root cause of the failure?  
+- 
+
+Why does the main thread join() the producers before setting done = true?
+
+Uncomment LINE A and run the code.  What changes in the output?  This is called “busy waiting” or “polling”.  Re-comment LINE A if you like.
